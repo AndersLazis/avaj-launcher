@@ -27,3 +27,40 @@ bin/
 
 ### Mac OS ###
 .DS_Store
+
+# IntelliJ IDEA system files
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Compiled files
+bin/
+out/
+*.class
+
+# Build files
+*.jar
+*.war
+*.ear
+*.log
+
+# OS-specific files
+Thumbs.db
+
+# Makefiles
+*.o
+*.obj
+*.exe
+
+# IntelliJ cache
+/.gradle/
+/build/
+
+# Logs
+logs/
+*.log
+
+# User-specific settings
+*.swp
+*~
