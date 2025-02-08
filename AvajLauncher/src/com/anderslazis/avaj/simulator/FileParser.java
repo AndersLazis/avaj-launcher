@@ -23,7 +23,7 @@ public class FileParser {
                 System.exit(1);
             }
             Set<String> aircraftNames = new HashSet<>();
-            AircraftFactory factory = new AircraftFactory();
+            AircraftFactory factory = AircraftFactory.getInstance();
             for (int i = 1; i < lines.size(); i++) {
                 String line = lines.get(i);
                 String[] parts = line.split(" ");
@@ -33,11 +33,11 @@ public class FileParser {
                 String type = parts[0];
                 String name = parts[1];
 
-                    int longtitude = Integer.parseInt(parts[2]);
+                    int longitude = Integer.parseInt(parts[2]);
                     int latitude = Integer.parseInt(parts[3]);
-                    int altitude = Integer.parseInt(parts[3]);
-                    if (longtitude > 90 || longtitude < 0 || latitude < 0 || latitude > 90 ||
-                            altitude < 0 || altitude > 100) {
+                    int height = Integer.parseInt(parts[3]);
+                    if (longitude > 90 || longitude < 0 || latitude < 0 || latitude > 90 ||
+                            height < 0 || height > 100) {
                         throw new Exception("Invalid limits of parameters in line " + (i + 1) + ". Please enter parameters" +
                                 " according to limits: 0 < Longtitude < 90, 0 < Latitude < 90, 0 < Altitude < 100");
                 }

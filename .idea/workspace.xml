@@ -5,16 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d13b6dc2-506c-4591-8ba3-05a9f5e95a9e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AvajLauncher/src/com/anderslazis/avaj/aircrafts/Baloon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AvajLauncher/src/com/anderslazis/avaj/aircrafts/Flyable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AvajLauncher/src/com/anderslazis/avaj/simulator/AircraftFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AvajLauncher/src/com/anderslazis/avaj/simulator/FileParser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/avaj-launcher.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/avaj-launcher.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AvajLauncher/src/com/anderslazis/avaj/aircrafts/Coordinates.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AvajLauncher/run.sh" beforeDir="false" afterPath="$PROJECT_DIR$/AvajLauncher/run.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AvajLauncher/src/com/anderslazis/avaj/scenario.txt" beforeDir="false" afterPath="$PROJECT_DIR$/AvajLauncher/scenario.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AvajLauncher/src/com/anderslazis/avaj/simulator/Simulator.java" beforeDir="false" afterPath="$PROJECT_DIR$/AvajLauncher/src/com/anderslazis/avaj/simulator/Simulator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AvajLauncher/src/com/anderslazis/avaj/aircrafts/Baloon.java" beforeDir="false" afterPath="$PROJECT_DIR$/AvajLauncher/src/com/anderslazis/avaj/aircrafts/Baloon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AvajLauncher/src/com/anderslazis/avaj/aircrafts/Flyable.java" beforeDir="false" afterPath="$PROJECT_DIR$/AvajLauncher/src/com/anderslazis/avaj/aircrafts/Flyable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AvajLauncher/src/com/anderslazis/avaj/simulator/AircraftFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/AvajLauncher/src/com/anderslazis/avaj/simulator/AircraftFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AvajLauncher/src/com/anderslazis/avaj/simulator/FileParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/AvajLauncher/src/com/anderslazis/avaj/simulator/FileParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/avaj-launcher/com/anderslazis/avaj/simulator/FileParser.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +21,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
