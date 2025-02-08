@@ -1,11 +1,4 @@
-[![Contributors][contributors-shield]][contributors-url]
-[![Commits][commits-shield]][commits-url]
-![Project passed][project-shield]
 
-[contributors-shield]: https://img.shields.io/badge/Contributors-1-orange
-[contributors-url]: https://github.com/cmenke42/ft_transcendence/graphs/contributors
-
-[commits-shield]: https://img.shields.io/badge/Last%20commit-Februaryr%202025-blue
 
 
 [project-shield]:https://img.shields.io/badge/Project%20passed-not-yet25-green
@@ -24,10 +17,12 @@
 <!-- prettier-ignore-end -->
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
-## Project
+## Project UNDER DEVELOPMENT
+
 Implementation a minimal aircraft simulation program based on a given UML class diagram.
-## Short demo
-https://github.com/user-attachments/assets/7aa148a2-9c60-4426-bd4a-477e983b192f
+<p align="center">
+  <img src="https://github.com/AndersLazis/AndersLazis/blob/main/assets/covers/Screenshot%20from%202025-02-08%2015-59-47.png" alt="avaj 42 project cover"/>
+</p>
 
 ## Features
 
