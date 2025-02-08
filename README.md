@@ -17,7 +17,7 @@
 <!-- prettier-ignore-end -->
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
-## ------------------------------------ Project UNDER DEVELOPMENT ------------------------------------
+## ---------------- Project UNDER DEVELOPMENT ----------------
 
 
 Implementation a minimal aircraft simulation program based on a given UML class diagram.
