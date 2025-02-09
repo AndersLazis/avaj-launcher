@@ -1,4 +1,6 @@
 package com.anderslazis.avaj.simulator;
+import com.anderslazis.avaj.aircrafts.AircraftFactory;
+
 import java.util.*;
 
 

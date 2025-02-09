@@ -1,7 +1,4 @@
-package com.anderslazis.avaj.simulator;
-import com.anderslazis.avaj.aircrafts.Coordinates;
-import com.anderslazis.avaj.aircrafts.Flyable;
-import com.anderslazis.avaj.aircrafts.Baloon;
+package com.anderslazis.avaj.aircrafts;
 
 
 public class AircraftFactory {
@@ -9,7 +6,8 @@ public class AircraftFactory {
 	private static AircraftFactory instance;
 
 	private AircraftFactory(){};
-	public static AircraftFactory getInstance() {
+
+	public static synchronized AircraftFactory getInstance() {
 		if (instance == null)
 		{
 			instance = new AircraftFactory();
@@ -18,7 +16,7 @@ public class AircraftFactory {
 	}
 
 	long p_id = 0;
-	public Flyable* newAircraft(String p_type, String p_name, Coordinates p_coordinates){
+	public Flyable newAircraft(String p_type, String p_name, Coordinates p_coordinates){
 		switch (p_type){
 			case "Baloon":
 				return new Baloon((p_id+1), p_name, p_coordinates);
@@ -27,7 +25,7 @@ public class AircraftFactory {
 //			case "JetPlane":
 //				return new Baloon((p_id+1), p_name, p_coordinates);
 			default:
-				return null;
+				throw new IllegalArgumentException("Error: unknown type of aircraft");
 		}
 
 
