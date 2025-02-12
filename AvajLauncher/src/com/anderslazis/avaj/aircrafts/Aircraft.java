@@ -1,6 +1,6 @@
 package com.anderslazis.avaj.aircrafts;
 
-public class Aircraft {
+public abstract class Aircraft extends Flyable {
 
 	protected long id;
 	protected String name;

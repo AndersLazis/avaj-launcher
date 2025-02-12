@@ -5,20 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d13b6dc2-506c-4591-8ba3-05a9f5e95a9e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/AvajLauncher/src/com/anderslazis/avaj/aircrafts/Aircraft.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AvajLauncher/src/com/anderslazis/avaj/tower/Tower.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AvajLauncher/src/com/anderslazis/avaj/tower/WeatherTower.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AvajLauncher/src/com/anderslazis/avaj/weather/WeatherProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Docs/avaj_uml.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Docs/scenario.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AvajLauncher/UML_Diagram.puml" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/UML_Diagram.puml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AvajLauncher/en.subject.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/en.subject.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AvajLauncher/sources.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AvajLauncher/scenario.txt" beforeDir="false" afterPath="$PROJECT_DIR$/AvajLauncher/scenario.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AvajLauncher/src/com/anderslazis/avaj/aircrafts/Aircraft.java" beforeDir="false" afterPath="$PROJECT_DIR$/AvajLauncher/src/com/anderslazis/avaj/aircrafts/Aircraft.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AvajLauncher/src/com/anderslazis/avaj/aircrafts/AircraftFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/AvajLauncher/src/com/anderslazis/avaj/aircrafts/AircraftFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AvajLauncher/src/com/anderslazis/avaj/aircrafts/Baloon.java" beforeDir="false" afterPath="$PROJECT_DIR$/AvajLauncher/src/com/anderslazis/avaj/aircrafts/Baloon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AvajLauncher/src/com/anderslazis/avaj/aircrafts/Coordinates.java" beforeDir="false" afterPath="$PROJECT_DIR$/AvajLauncher/src/com/anderslazis/avaj/aircrafts/Coordinates.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AvajLauncher/src/com/anderslazis/avaj/aircrafts/Flyable.java" beforeDir="false" afterPath="$PROJECT_DIR$/AvajLauncher/src/com/anderslazis/avaj/aircrafts/Flyable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AvajLauncher/src/com/anderslazis/avaj/simulator/AircraftFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/AvajLauncher/src/com/anderslazis/avaj/aircrafts/AircraftFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AvajLauncher/src/com/anderslazis/avaj/simulator/FileParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/AvajLauncher/src/com/anderslazis/avaj/simulator/FileParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AvajLauncher/src/com/anderslazis/avaj/simulator/Simulator.java" beforeDir="false" afterPath="$PROJECT_DIR$/AvajLauncher/src/com/anderslazis/avaj/simulator/Simulator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AvajLauncher/src/com/anderslazis/avaj/tower/Tower.java" beforeDir="false" afterPath="$PROJECT_DIR$/AvajLauncher/src/com/anderslazis/avaj/tower/Tower.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/avaj-launcher/com/anderslazis/avaj/aircrafts/Aircraft.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/avaj-launcher/com/anderslazis/avaj/aircrafts/Aircraft.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/avaj-launcher/com/anderslazis/avaj/aircrafts/Baloon.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/avaj-launcher/com/anderslazis/avaj/aircrafts/Baloon.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/avaj-launcher/com/anderslazis/avaj/aircrafts/Flyable.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/avaj-launcher/com/anderslazis/avaj/aircrafts/Flyable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/avaj-launcher/com/anderslazis/avaj/tower/Tower.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/avaj-launcher/com/anderslazis/avaj/tower/Tower.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,20 +63,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Simulator.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Unnamed.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/aputiev/Documents/Projects/Java/avaj-launcher&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Simulator.executor": "Run",
+    "Application.Unnamed.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/aputiev/Documents/Projects/Java/avaj-launcher/Docs",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Docs" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Docs" />
       <recent name="$PROJECT_DIR$" />

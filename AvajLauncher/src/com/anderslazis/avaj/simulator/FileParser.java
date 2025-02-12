@@ -1,5 +1,7 @@
 package com.anderslazis.avaj.simulator;
 import com.anderslazis.avaj.aircrafts.AircraftFactory;
+import com.anderslazis.avaj.aircrafts.Coordinates;
+import com.anderslazis.avaj.aircrafts.Flyable;
 
 import java.util.*;
 
@@ -7,12 +9,13 @@ import java.util.*;
 public class FileParser {
 
     private List<String> lines;
+    private List<Flyable> fleet = new ArrayList<Flyable>();
 
     public FileParser(List<String> lines) {
         this.lines = lines;
     }
 
-    public void parseFile() {
+    public List<Flyable> parseFile() {
         try {
             String weatherCycles = lines.get(0);
             try {
@@ -35,30 +38,25 @@ public class FileParser {
                 String type = parts[0];
                 String name = parts[1];
 
-                    int longitude = Integer.parseInt(parts[2]);
-                    int latitude = Integer.parseInt(parts[3]);
-                    int height = Integer.parseInt(parts[3]);
-                    if (longitude > 90 || longitude < 0 || latitude < 0 || latitude > 90 ||
-                            height < 0 || height > 100) {
-                        throw new Exception("Invalid limits of parameters in line " + (i + 1) + ". Please enter parameters" +
-                                " according to limits: 0 < Longtitude < 90, 0 < Latitude < 90, 0 < Altitude < 100");
+                int longitude = Integer.parseInt(parts[2]);
+                int latitude = Integer.parseInt(parts[3]);
+                int height = Integer.parseInt(parts[3]);
+                if (longitude > 90 || longitude < 0 || latitude < 0 || latitude > 90 ||
+                        height < 0 || height > 100) {
+                    throw new Exception("Invalid limits of parameters in line " + (i + 1) + ". Please enter parameters" +
+                            " according to limits: 0 < Longtitude < 90, 0 < Latitude < 90, 0 < Altitude < 100");
                 }
                     if(!aircraftNames.add(name)){
                         throw new Exception("Error: Every aircraft name should be unique! Please check line " + (i+1));
                     }
-
-
-                    //  CREATE AIRCRAFT
-
-                    //REGISTER AIRCRAFT
-
-
-
-
+                    Coordinates coordinates = new Coordinates(longitude, latitude, height);
+                    Flyable newAircraft = factory.newAircraft(type, name, coordinates);
+                    fleet.add(newAircraft);
             }
         } catch (Exception e) {
             System.out.println("Error: " + e.getMessage());
             System.exit(1);
         }
+        return fleet;
     }
 }

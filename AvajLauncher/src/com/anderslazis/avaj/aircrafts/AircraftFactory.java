@@ -25,7 +25,7 @@ public class AircraftFactory {
 //			case "JetPlane":
 //				return new Baloon((p_id+1), p_name, p_coordinates);
 			default:
-				throw new IllegalArgumentException("Error: unknown type of aircraft");
+				throw new IllegalArgumentException("Error: unknown type of aircraft: " + p_type);
 		}
 
 
