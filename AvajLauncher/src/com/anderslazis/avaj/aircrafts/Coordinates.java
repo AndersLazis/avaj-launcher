@@ -8,16 +8,16 @@ public class Coordinates{
 	Coordinates(int p_longitude, int p_latitude, int p_height){
 		if (p_longitude < 0) {
 			this.longitude = 0;
-		} else if (p_longitude > 90) {
-			this.longitude = 90;
+		} else if (p_longitude > 360) {
+			this.longitude = 360;
 		} else {
 			this.longitude = p_longitude;
 		}
 
 		if (p_latitude < 0) {
 			this.latitude = 0;
-		} else if (p_latitude > 90) {
-			this.latitude = 90;
+		} else if (p_latitude > 360) {
+			this.latitude = 360;
 		} else {
 			this.latitude = p_latitude;
 		}

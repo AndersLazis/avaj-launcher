@@ -51,10 +51,10 @@ public class FileParser {
                     int longitude = Integer.parseInt(parts[2]);
                     int latitude = Integer.parseInt(parts[3]);
                     int height = Integer.parseInt(parts[4]);
-                    if (longitude > 90 || longitude < 0 || latitude < 0 || latitude > 90 ||
+                    if (longitude > 360 || longitude < 0 || latitude < 0 || latitude > 360 ||
                             height < 1 || height > 100) {
                         throw new MyException("Invalid limits of parameters in line " + (i + 1) + ". Please enter parameters" +
-                                " according to limits: 0 < Longtitude < 90, 0 < Latitude < 90, 1 < Altitude(Height) < 100");
+                                " according to limits: 0 < Longtitude < 360, 0 < Latitude < 360, 1 < Altitude(Height) < 100");
                     }
                     if (!aircraftNames.add(name)) {
                         throw new MyException("Every aircraft name should be unique! Please check line " + (i + 1));
