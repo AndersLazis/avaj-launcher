@@ -23,6 +23,17 @@ package com.anderslazis.avaj.simulator;
 		public static String colorize(String text, String color) {
 			return color + text + RESET;
 		}
+
+		public static void entrySign(){
+			System.out.println(AnsiColor.colorize(("\n __          __   _  __     _                                _      _ _                 \n" +
+					" \\ \\        / /  | |/ _|   | |                         /\\   (_)    | (_)                \n" +
+					"  \\ \\  /\\  / /__ | | |_ ___| |__  _   _ _ __ __ _     /  \\   _ _ __| |_ _ __   ___  ___ \n" +
+					"   \\ \\/  \\/ / _ \\| |  _/ __| '_ \\| | | | '__/ _` |   / /\\ \\ | | '__| | | '_ \\ / _ \\/ __|\n" +
+					"    \\  /\\  / (_) | | | \\__ \\ |_) | |_| | | | (_| |  / ____ \\| | |  | | | | | |  __/\\__ \\\n" +
+					"     \\/  \\/ \\___/|_|_| |___/_.__/ \\__,_|_|  \\__, | /_/    \\_\\_|_|  |_|_|_| |_|\\___||___/\n" +
+					"                                             __/ |                                      \n" +
+					"                                            |___/                                       "), AnsiColor.CYAN));
+		}
 	}
 
 //How to use:

@@ -36,7 +36,6 @@ public class Simulator {
 			FileParser parser = new FileParser(lineList);
 			aircraftFleet = parser.parseFile();
 			for (Flyable aircraft : aircraftFleet) {
-				System.out.println(weatherTower);
 				aircraft.registerTower(weatherTower);
 			}
 
@@ -50,7 +49,7 @@ public class Simulator {
 //									aircraft.getHeight());
 //			}
 //			System.out.println("=======================================");
-
+			AnsiColor.entrySign();
 			for (int i = 1; i <= parser.numberWeatherCycles; i++) {
 				System.out.println(AnsiColor.colorize((" === * Weather has been generated in " + i + " time * === "), AnsiColor.CYAN));
 				weatherTower.changeWeather();
@@ -60,11 +59,11 @@ public class Simulator {
 			System.out.println("\n === * End of simulation: all aircrafts in the air: * ===");
 			for (Flyable aircraft : aircraftFleet) {
 				//System.out.println("Last weather: " + weatherTower.getWeather(aircraft.getCoordinates()));
-				System.out.println(	aircraft.getType() + " " +
+				System.out.println(AnsiColor.colorize((aircraft.getType() + " " +
 									aircraft.getName() + " " +
 									aircraft.getLongtitude() + " " +
 									aircraft.getLatitude() + " " +
-									aircraft.getHeight());
+						(aircraft.getHeight() <=0 ? "[Landed]" : aircraft.getHeight())), AnsiColor.YELLOW));
 			}
 			System.out.println("=======================================");
 

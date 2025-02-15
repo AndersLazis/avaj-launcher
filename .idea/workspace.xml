@@ -5,30 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d13b6dc2-506c-4591-8ba3-05a9f5e95a9e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/AvajLauncher/src/com/anderslazis/avaj/aircrafts/Helicopter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AvajLauncher/src/com/anderslazis/avaj/aircrafts/JetPlane.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AvajLauncher/src/com/anderslazis/avaj/simulator/AnsiColor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AvajLauncher/src/com/anderslazis/avaj/simulator/MyException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AvajLauncher/scenario.txt" beforeDir="false" afterPath="$PROJECT_DIR$/AvajLauncher/scenario.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AvajLauncher/src/com/anderslazis/avaj/aircrafts/Aircraft.java" beforeDir="false" afterPath="$PROJECT_DIR$/AvajLauncher/src/com/anderslazis/avaj/aircrafts/Aircraft.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AvajLauncher/src/com/anderslazis/avaj/aircrafts/AircraftFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/AvajLauncher/src/com/anderslazis/avaj/aircrafts/AircraftFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AvajLauncher/src/com/anderslazis/avaj/aircrafts/Baloon.java" beforeDir="false" afterPath="$PROJECT_DIR$/AvajLauncher/src/com/anderslazis/avaj/aircrafts/Baloon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AvajLauncher/src/com/anderslazis/avaj/aircrafts/Coordinates.java" beforeDir="false" afterPath="$PROJECT_DIR$/AvajLauncher/src/com/anderslazis/avaj/aircrafts/Coordinates.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AvajLauncher/src/com/anderslazis/avaj/aircrafts/Flyable.java" beforeDir="false" afterPath="$PROJECT_DIR$/AvajLauncher/src/com/anderslazis/avaj/aircrafts/Flyable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AvajLauncher/src/com/anderslazis/avaj/simulator/FileParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/AvajLauncher/src/com/anderslazis/avaj/simulator/FileParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AvajLauncher/src/com/anderslazis/avaj/simulator/AnsiColor.java" beforeDir="false" afterPath="$PROJECT_DIR$/AvajLauncher/src/com/anderslazis/avaj/simulator/AnsiColor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AvajLauncher/src/com/anderslazis/avaj/simulator/Simulator.java" beforeDir="false" afterPath="$PROJECT_DIR$/AvajLauncher/src/com/anderslazis/avaj/simulator/Simulator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AvajLauncher/src/com/anderslazis/avaj/tower/Tower.java" beforeDir="false" afterPath="$PROJECT_DIR$/AvajLauncher/src/com/anderslazis/avaj/tower/Tower.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AvajLauncher/src/com/anderslazis/avaj/weather/WeatherProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/AvajLauncher/src/com/anderslazis/avaj/weather/WeatherProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/avaj-launcher/com/anderslazis/avaj/aircrafts/Aircraft.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/avaj-launcher/com/anderslazis/avaj/aircrafts/Aircraft.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/avaj-launcher/com/anderslazis/avaj/aircrafts/AircraftFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/avaj-launcher/com/anderslazis/avaj/aircrafts/AircraftFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/avaj-launcher/com/anderslazis/avaj/aircrafts/Baloon.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/avaj-launcher/com/anderslazis/avaj/aircrafts/Baloon.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/avaj-launcher/com/anderslazis/avaj/aircrafts/Coordinates.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/avaj-launcher/com/anderslazis/avaj/aircrafts/Coordinates.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/avaj-launcher/com/anderslazis/avaj/aircrafts/Flyable.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/avaj-launcher/com/anderslazis/avaj/aircrafts/Flyable.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/avaj-launcher/com/anderslazis/avaj/simulator/FileParser.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/avaj-launcher/com/anderslazis/avaj/simulator/FileParser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/avaj-launcher/com/anderslazis/avaj/simulator/AnsiColor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/avaj-launcher/com/anderslazis/avaj/simulator/AnsiColor.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/avaj-launcher/com/anderslazis/avaj/simulator/Simulator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/avaj-launcher/com/anderslazis/avaj/simulator/Simulator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/avaj-launcher/com/anderslazis/avaj/tower/Tower.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/avaj-launcher/com/anderslazis/avaj/tower/Tower.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/avaj-launcher/com/anderslazis/avaj/weather/WeatherProvider.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/avaj-launcher/com/anderslazis/avaj/weather/WeatherProvider.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
