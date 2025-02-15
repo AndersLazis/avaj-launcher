@@ -28,7 +28,7 @@ public class FileParser {
                     throw new IllegalArgumentException("Wrong number of weather changes cycles");
                 }
             } catch (IllegalArgumentException e) {
-                System.out.println(AnsiColor.colorize((e.getMessage()), AnsiColor.ERROR));
+                System.err.println(AnsiColor.colorize((e.getMessage()), AnsiColor.ERROR));
                 System.exit(1);
             }
 
@@ -63,12 +63,12 @@ public class FileParser {
                     Flyable newAircraft = factory.newAircraft(type, name, coordinates);
                     fleet.add(newAircraft);
                 } catch (MyException e){
-                    System.out.println(AnsiColor.colorize(e.getMessage(), AnsiColor.RED));
+                    System.err.println(AnsiColor.colorize(e.getMessage(), AnsiColor.RED));
                     System.exit(1);
                 }
                 }
         } catch (Exception e) {
-            System.out.println(AnsiColor.colorize(e.getMessage(), AnsiColor.ERROR));
+            System.err.println(AnsiColor.colorize(e.getMessage(), AnsiColor.ERROR));
             System.exit(1);
         }
         return fleet;

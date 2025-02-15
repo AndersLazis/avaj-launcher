@@ -6,11 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="d13b6dc2-506c-4591-8ba3-05a9f5e95a9e" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AvajLauncher/scenario.txt" beforeDir="false" afterPath="$PROJECT_DIR$/AvajLauncher/scenario.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AvajLauncher/src/com/anderslazis/avaj/simulator/AnsiColor.java" beforeDir="false" afterPath="$PROJECT_DIR$/AvajLauncher/src/com/anderslazis/avaj/simulator/AnsiColor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AvajLauncher/src/com/anderslazis/avaj/simulator/FileParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/AvajLauncher/src/com/anderslazis/avaj/simulator/FileParser.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AvajLauncher/src/com/anderslazis/avaj/simulator/Simulator.java" beforeDir="false" afterPath="$PROJECT_DIR$/AvajLauncher/src/com/anderslazis/avaj/simulator/Simulator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/avaj-launcher/com/anderslazis/avaj/simulator/AnsiColor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/avaj-launcher/com/anderslazis/avaj/simulator/AnsiColor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/avaj-launcher/com/anderslazis/avaj/simulator/Simulator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/avaj-launcher/com/anderslazis/avaj/simulator/Simulator.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

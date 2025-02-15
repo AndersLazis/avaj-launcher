@@ -15,7 +15,7 @@ public class Simulator {
 
 
 		if (args.length < 1) {
-			System.out.println("Error: Please specify correct scenario file name in double quotes");
+			System.err.println("Error: Please specify correct scenario file name in double quotes");
 			return;
 		}
 		String fileName = args[0];
@@ -28,7 +28,7 @@ public class Simulator {
 				lineList.add(line);
 			}
 		} catch (IOException e) {
-			System.out.println(AnsiColor.colorize(("Error: error while reading file. " + e.getMessage()), AnsiColor.ERROR));
+			System.err.println(AnsiColor.colorize(("Error: error while reading file. " + e.getMessage()), AnsiColor.ERROR));
 			System.exit(1);
 		}
 
@@ -74,7 +74,7 @@ public class Simulator {
 		ps.close();
 		fos.close();
 		} catch ( Exception e) {
-			System.out.println(e.getMessage());
+			System.err.println(e.getMessage());
 			System.exit(1);
 		}
 		return;
