@@ -20,10 +20,10 @@ public class AircraftFactory {
 		switch (p_type){
 			case "Baloon":
 				return new Baloon((p_id+1), p_name, p_coordinates);
-//			case "Helicopter":
-//				return new Baloon((p_id+1), p_name, p_coordinates);
-//			case "JetPlane":
-//				return new Baloon((p_id+1), p_name, p_coordinates);
+			case "Helicopter":
+				return new Helicopter((p_id+1), p_name, p_coordinates);
+			case "JetPlane":
+				return new JetPlane((p_id+1), p_name, p_coordinates);
 			default:
 				throw new IllegalArgumentException("Error: unknown type of aircraft: " + p_type);
 		}

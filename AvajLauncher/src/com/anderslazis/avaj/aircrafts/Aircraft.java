@@ -11,4 +11,12 @@ public abstract class Aircraft extends Flyable {
 		this.name = p_name;
 		this.coordinates = p_coordinate;
 	}
+
+	/* Debug methods. They shouldn't be used during simulation */
+	public int getHeight() {return this.coordinates.getHeight();}
+	public int getLongtitude() {return this.coordinates.getLongitude();}
+	public int getLatitude() {return this.coordinates.getLatitude();}
+	public Coordinates getCoordinates(){return this.coordinates;}
+
+
 }

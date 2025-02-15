@@ -5,10 +5,30 @@ public class Coordinates{
 	private int latitude;
 	private int height;
 
-	public Coordinates(int p_longitude, int p_latitude, int p_height){
-		this.longitude = p_longitude;
-		this.latitude = p_latitude;
-		this.height = p_height;
+	Coordinates(int p_longitude, int p_latitude, int p_height){
+		if (p_longitude < 0) {
+			this.longitude = 0;
+		} else if (p_longitude > 90) {
+			this.longitude = 90;
+		} else {
+			this.longitude = p_longitude;
+		}
+
+		if (p_latitude < 0) {
+			this.latitude = 0;
+		} else if (p_latitude > 90) {
+			this.latitude = 90;
+		} else {
+			this.latitude = p_latitude;
+		}
+
+		if (p_height < 0) {
+			this.height = 0;
+		} else if (p_height > 100) {
+			this.height = 100;
+		} else {
+			this.height = p_height;
+		}
 	}
 
 	public int  getLongitude(){
@@ -21,5 +41,9 @@ public class Coordinates{
 
 	public int getLatitude() {
 		return latitude;
+	}
+
+	public static Coordinates create (int p_longitude, int p_latitude, int p_height){
+		return new Coordinates(p_longitude, p_latitude, p_height);
 	}
 }

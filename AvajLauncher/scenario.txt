@@ -1,2 +1,8 @@
 1
-Baloon B1 10 20 5
+Baloon B1 9 9 1
+Baloon B2 1 8 1
+JetPlane J1 23 44 3
+Helicopter H1 65 33 1
+Helicopter H2 22 33 1
+
+
