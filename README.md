@@ -26,6 +26,10 @@ AVAJ Launcher is a simple Java-based aircraft simulation project developed as pa
   <img src="https://github.com/AndersLazis/AndersLazis/blob/main/assets/covers/Screenshot%20from%202025-02-08%2015-59-47.png" alt="avaj 42 project cover"/>
 </p>
 
+<p align="center">
+  <img src="https://github.com/AndersLazis/avaj-launcher/blob/main/Docs/Screenshot%20from%202025-02-17%2017-03-30.png" 
+</p>
+
 ## ✨ Features
 
 Simulates aircraft movements based on predefined weather conditions 
