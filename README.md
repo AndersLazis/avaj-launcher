@@ -17,19 +17,39 @@
 <!-- prettier-ignore-end -->
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
-## ---------------- Project UNDER DEVELOPMENT ----------------
+## ---------------- Project finished Feb. 17 with grade 125% ----------------
 
 
-Implementation a minimal aircraft simulation program based on a given UML class diagram.
+AVAJ Launcher is a simple Java-based aircraft simulation project developed as part of the curriculum at School 42. It focuses on object-oriented programming (OOP) principles, design patterns, and file handling.
+
 <p align="center">
   <img src="https://github.com/AndersLazis/AndersLazis/blob/main/assets/covers/Screenshot%20from%202025-02-08%2015-59-47.png" alt="avaj 42 project cover"/>
 </p>
 
-## Features
+## ✨ Features
 
-###Features:
+Simulates aircraft movements based on predefined weather conditions 
+Implements the Observer, Singleton and Factory design pattern
+Reads input from a scenario file and outputs simulation logs either in file or in console
+Ensures robust error handling and validation
 
+<p align="center">
+  <img src="https://github.com/AndersLazis/avaj-launcher/blob/main/AvajLauncher/avaj_uml.png" alt="avaj 42 project cover"/>
+</p>
 
-## Technologies
+## 🛠️ Technologies
 
-## HOW TO RUN
+Java
+Object-Oriented Programming (OOP)
+Observer Design Pattern
+File I/O
+
+## ▶️ How to Run
+
+Be sure that java is installed.
+Make sure your AvajLauncher/scenario.txt file follows the expected input format! 🚀
+1. Clone the repository
+```https://github.com/AndersLazis/avaj-launcher.git```
+2. Compile and run the project
+```./run.sh```
+3. By default output redirects in file simualtion.txt
