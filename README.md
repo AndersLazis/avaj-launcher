@@ -17,7 +17,7 @@
 <!-- prettier-ignore-end -->
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
-## ---------------- Project finished Feb. 17 with grade 125% ----------------
+## ---------------- Project finished Feb. 17 2025 with grade 125% ----------------
 
 
 AVAJ Launcher is a simple Java-based aircraft simulation project developed as part of the curriculum at School 42. It focuses on object-oriented programming (OOP) principles, design patterns, and file handling.
